@@ -4,6 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -26,5 +28,6 @@
     "postcss": "^8.4.40",
     "tailwindcss": "^3.4.7",
     "vite": "^5.3.4"
-  }
+  },
+  "homepage": "https://rohnoan.github.io/medicish"
 }
