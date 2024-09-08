@@ -1,0 +1,207 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  
+}
+
+.nav-but{
+  white-space: nowrap;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  border-color: black;
+  padding:10px;
+  margin: 10px;
+  
+
+}
+
+.header{
+  height: 110px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around ;
+
+  background-color: white;
+  margin-top: 30px;
+
+}
+
+
+.logo{
+
+background-color: rgb(30, 30, 30);
+}
+
+.button-container{
+  margin-top: -20px;
+  justify-content: space-between;
+  background-color: white;
+  height: 70px;
+}
+
+.welcome{
+
+
+  text-align: center;
+  font-weight: 600;
+  font-size: xx-large;
+  margin-top: 20px;
+
+}
+
+.features{
+  color: rgb(8 145 178);
+  margin-top: 50px;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 400;
+}
+
+.links{
+  background-color: rgb(30, 30, 30);
+  height: 300px;
+  margin-bottom: 0;
+  margin-top: 100px;
+}
+
+.nav-but:hover{
+  background-color: rgb(30, 30, 30);
+  color: white;
+  animation-duration: 500ms;
+}
+
+.features-image{
+  margin: auto;
+  height: 100px;
+}
+
+
+.search-bar{
+  height: 70px;
+  margin: auto;
+  margin-bottom: 10px;
+  background-color: rgb(30, 30, 30);
+  margin-right: 10px;
+  margin-left: 10px;
+  border: solid black;
+  border-width: 1px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  
+}
+
+input{
+  border-width: 1px;
+  border-radius: 3px;
+  margin-right: 20px;
+  border-color: black;
+  height: 30px;
+  width: calc(100% - 120px); 
+  max-width: 300px; 
+  box-sizing: border-box; 
+}
+
+input::placeholder {
+  color: #888; 
+  font-size: 14px; 
+  font-style: italic;
+}
+.med-bar{
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 40px;
+  border: solid black;
+  border-width: 1px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: rgb(250, 235, 215);
+}
+
+.med-bar-block{
+  text-align: center;
+  border-width: 1px;
+  border-radius: 3px;
+  margin-right: 20px;
+  border-color: black;
+  height: 30px;
+  width: calc(100% - 120px); 
+  max-width: 300px; 
+  box-sizing: border-box; 
+  background-color: white;
+}
+
+
+.login-border{
+  border: solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  margin: auto;
+  height: 200px;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: -15px;
+}
+
+.input-login{
+  width: 100%;
+}
+
+.pharmacy-card{
+  border: solid black;
+  border-radius: 6px;
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-basis: 0;
+  justify-content: space-between;
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.cards{
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  border: solid black;
+  border-radius: 2px;
+  border-width: 1px;
+  flex:1;
+  background-color: rgb(250, 235, 215);
+  height: 40px;
+}
+
+.extra-class{
+  background-color: black;
+
+}
+
+.card-main{
+  color: white;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  border: solid black;
+  border-radius: 2px;
+  border-width: 1px;
+  flex:1;
+  background-color: rgb(30, 30, 30);
+  height: 40px;
+}
